@@ -401,6 +401,7 @@ const res17 = products.filter((p) =>
 console.log(res17); //Output: [{ name: "T-shirt", price: 500 },{ name: "Socks", price: 200 }]
 
 //54
+const numbers = [1, 2, 2, 3, 4, 3];
 const uniqueNumbers = numbers.filter(
   (num, index, arr) => arr.indexOf(num) === index,
 );

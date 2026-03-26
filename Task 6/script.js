@@ -1,23 +1,23 @@
 //Task 1: Username Formatter
-// const userName = prompt("Enter User name:");
+const userName = prompt("Enter User name:");
 
-// console.log(userName.trim().toLowerCase().replace(" ", "_")); //Output: "NAVEEN_KUMAR"
+console.log(userName.trim().toLowerCase().replace(" ", "_")); //Output: "NAVEEN_KUMAR"
 
 //Task 2: Email Validator (Basic)
-// const gmail = prompt("Enter Your gmail:");
+const gmail = prompt("Enter Your gmail:");
 
-// if (gmail.includes("@") && gmail.endsWith(".com")) {
-//   console.log("Valid Email");
-// } else {
-//   console.log("Invalid Email");
-// }
+if (gmail.includes("@") && gmail.endsWith(".com")) {
+  console.log("Valid Email");
+} else {
+  console.log("Invalid Email");
+}
 
 //Task 3: Word Counter
-// let text = "javascript is very powerful language";
+let text = "javascript is very powerful language";
 
-// let count = text.split(" ").length;
+let count = text.split(" ").length;
 
-// console.log(count); //Output: 3
+console.log(count); //Output: 3
 
 // Task 4: Replace Second Word Only
 let str = "python python developer";
